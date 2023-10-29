@@ -5,17 +5,17 @@
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     </head>
-    <body>
+    <body class="bg-secondary">
         <script src="script.js"></script>
 
         <div class="container mt-5">
             <div class="row">
             <div class="col-md-6 offset-md-3">
-            <div class="card">
+            <div class="card bg-dark">
             <div class="card-body">
-            <h5 class="card-title">Consulta el clima para una semana</h5>
+            <h5 class="card-title text-white">Consulta el clima para una semana</h5>
             <div class="form-group">
-            <label for="location">Ubicación:</label>
+            <label for="location" class="text-white">Ubicación:</label>
             <input type="text" class="form-control" id="location" placeholder="Introduce la ciudad"/>
             </div>
             <button id="checkWeather" class="btn btn-primary">
@@ -23,9 +23,9 @@
             </button>
             </div>
             </div>
-            <div id="weatherResult" class="mt-4"></div>
+            <div id="weatherResult" class="text-white mt-4"></div>
             </div>
             </div>
-            </div>
+        </div>
     </body>
 </html>
